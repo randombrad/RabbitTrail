@@ -1,0 +1,73 @@
+body, html {
+	text-align:center;
+	font-size: 9pt;
+	background-color:#000000;
+}
+li {
+	display: block;
+	float: left;
+	margin-top: 22pt;
+	padding: 1em;
+	width: 90px;
+	height: 75px;
+	background-image: url(case2.gif); 
+	background-repeat: no-repeat;
+	background-color: #000000;
+	font-family: Eurostile;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(EUROSTI0.eot);
+	text-align: center;
+	color :#f4f5ef;
+	list-style-type:none;
+    visibility: visible;
+	z-index:100;
+}
+
+span.show {
+  	font-family: Eurostile;
+    font-style:  bold;
+    font-weight: normal;
+	font-size: 10px;
+    src: url(EUROSTI0.eot);
+	text-align: center;
+	color :#000000;
+	position:relative;
+	top:20px;
+	left:-7px;
+	visibility: visible;
+}
+span.hide {
+	visibility: hidden;
+	z-index:50;
+}
+div{
+    position: absolute;
+	top:20px;
+	left:10px;
+	font-family: Eurostile;
+    font-style:  bold;
+    font-weight: normal;
+	font-size: 15px;
+    src: url(EUROSTI0.eot);
+	text-align: center;
+	color :#FFFFFF;
+	width:200px;
+}
+
+h1{
+display: block;
+	text-align:center;
+	width: 100%;
+	position:absolute;
+	top:45px;
+	left:-30px;
+	margin-top: 22pt;
+	padding: 1em;
+font-family: Eurostile;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(EUROSTI0.eot);
+	text-align: center;
+	color :#000000;
+}
